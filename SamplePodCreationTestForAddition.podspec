@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "SamplePodCreationTest"
+  spec.name         = "SamplePodCreationTestForAddition"
   spec.version      = "0.0.1"
   spec.summary      = "This pod is test pod, which contains libary to add or subtract two values"
 
@@ -33,10 +33,10 @@ Pod::Spec.new do |spec|
 
 
   spec.platform     = :ios
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "12.0"
+  spec.ios.deployment_target = "11.0"
   spec.swift_version = "4.2"
 
   spec.source       = { :git => "https://github.com/chandan-shetty/SamplePodCreationTest.git", :tag => "#{spec.version}" }
