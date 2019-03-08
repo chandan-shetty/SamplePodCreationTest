@@ -19,6 +19,7 @@
 		17CB1EDD22324E100037E9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CB1EDC22324E100037E9C2 /* Assets.xcassets */; };
 		17CB1EE022324E100037E9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CB1EDE22324E100037E9C2 /* LaunchScreen.storyboard */; };
 		17CB1EEB22324E110037E9C2 /* SamplePodCreationTestExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB1EEA22324E110037E9C2 /* SamplePodCreationTestExamplesTests.swift */; };
+		17CB1EF42232527C0037E9C2 /* AdditionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB1EF32232527C0037E9C2 /* AdditionHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		17CB1EE622324E100037E9C2 /* SamplePodCreationTestExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePodCreationTestExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CB1EEA22324E110037E9C2 /* SamplePodCreationTestExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePodCreationTestExamplesTests.swift; sourceTree = "<group>"; };
 		17CB1EEC22324E110037E9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CB1EF32232527C0037E9C2 /* AdditionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				17CB1EAF22324D960037E9C2 /* AppDelegate.swift */,
+				17CB1EF32232527C0037E9C2 /* AdditionHandler.swift */,
 				17CB1EB122324D960037E9C2 /* ViewController.swift */,
 				17CB1EB322324D960037E9C2 /* Main.storyboard */,
 				17CB1EB622324D970037E9C2 /* Assets.xcassets */,
@@ -321,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CB1EF42232527C0037E9C2 /* AdditionHandler.swift in Sources */,
 				17CB1EB222324D960037E9C2 /* ViewController.swift in Sources */,
 				17CB1EB022324D960037E9C2 /* AppDelegate.swift in Sources */,
 			);
